@@ -16,8 +16,26 @@ include __DIR__ . '/includes/header.php';
     <div class="container">
         <div class="grid grid-2" style="align-items: center; gap: 4rem;">
             <div>
-                <div style="width: 100%; aspect-ratio: 1; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 8rem; box-shadow: 0 20px 60px rgba(255, 48, 80, 0.3);">
-                    🐺
+                <div style="
+                    width: 100%;
+                    aspect-ratio: 1;
+                    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 20px 60px rgba(255, 48, 80, 0.35);
+                ">
+                    <img
+                        src="https://i.ibb.co/ns1czZv9/Brennender-Wolf-und-Flammen-Sym33bole-removebg-preview.png"
+                        alt="Engels811 Logo"
+                        style="
+                            width: 80%;
+                            height: 80%;
+                            object-fit: contain;
+                            filter: drop-shadow(0 0 25px rgba(255, 48, 80, 0.6));
+                        "
+                    >
                 </div>
             </div>
             <div>
@@ -32,7 +50,7 @@ include __DIR__ . '/includes/header.php';
                 </p>
                 <div class="hero-buttons">
                     <a href="https://twitch.tv/engels811" target="_blank" class="btn btn-primary">📺 Twitch</a>
-                    <a href="https://youtube.com/@engels811" target="_blank" class="btn btn-secondary">🎥 YouTube</a>
+                    <a href="https://youtube.com/@engels811_ttv" target="_blank" class="btn btn-secondary">🎥 YouTube</a>
                 </div>
             </div>
         </div>
@@ -119,13 +137,13 @@ include __DIR__ . '/includes/header.php';
                 <p style="color: var(--text-secondary);">Live Streams</p>
             </a>
             
-            <a href="https://youtube.com/@engels811" target="_blank" class="card" style="text-decoration: none; text-align: center; transition: all 0.3s;">
+            <a href="https://youtube.com/@engels811_ttv" target="_blank" class="card" style="text-decoration: none; text-align: center; transition: all 0.3s;">
                 <div style="font-size: 4rem; margin-bottom: 1rem;">🎥</div>
                 <h3>YouTube</h3>
                 <p style="color: var(--text-secondary);">Videos & Highlights</p>
             </a>
             
-            <a href="https://discord.gg/engels811" target="_blank" class="card" style="text-decoration: none; text-align: center; transition: all 0.3s;">
+            <a href="https://discord.gg/KfZRZ4WTnG" target="_blank" class="card" style="text-decoration: none; text-align: center; transition: all 0.3s;">
                 <div style="font-size: 4rem; margin-bottom: 1rem;">💬</div>
                 <h3>Discord</h3>
                 <p style="color: var(--text-secondary);">Community Server</p>
@@ -147,7 +165,7 @@ include __DIR__ . '/includes/header.php';
             Die Engels811 Community ist mehr als nur Zuschauer - wir sind eine Familie! Tritt unserem Discord bei, chatte im Stream und sei Teil von etwas Besonderem.
         </p>
         <div class="hero-buttons">
-            <a href="https://discord.gg/engels811" target="_blank" class="btn btn-primary">💬 Discord beitreten</a>
+            <a href="https://discord.gg/KfZRZ4WTnG" target="_blank" class="btn btn-primary">💬 Discord beitreten</a>
             <a href="/live.php" class="btn btn-secondary">🔴 Zum Stream</a>
         </div>
     </div>

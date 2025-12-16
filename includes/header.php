@@ -30,8 +30,10 @@
                     <li><a href="/videos.php" class="<?php echo ($currentPage ?? '') == 'videos' ? 'active' : ''; ?>">Videos</a></li>
                     <li><a href="/playlists.php" class="<?php echo ($currentPage ?? '') == 'playlists' ? 'active' : ''; ?>">Playlisten</a></li>
                     <li><a href="/hardware.php" class="<?php echo ($currentPage ?? '') == 'hardware' ? 'active' : ''; ?>">Hardware</a></li>
+                    <li><a href="/partner.php" class="<?php echo ($currentPage ?? '') == 'partner' ? 'active' : ''; ?>">Partner</a></li>
                     <li><a href="/live.php" class="<?php echo ($currentPage ?? '') == 'live' ? 'active' : ''; ?>">🔴 Live</a></li>
                     <li><a href="/about.php" class="<?php echo ($currentPage ?? '') == 'about' ? 'active' : ''; ?>">About</a></li>
+
                 </ul>
             </nav>
             

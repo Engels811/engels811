@@ -7,9 +7,9 @@
 
             <div class="social-links">
                 <a href="https://twitch.tv/engels811" target="_blank" class="social-link">📺</a>
-                <a href="https://youtube.com/@engels811" target="_blank" class="social-link">🎥</a>
-                <a href="https://discord.gg/engels811" target="_blank" class="social-link">💬</a>
-                <a href="https://twitter.com/engels811" target="_blank" class="social-link">🐦</a>
+                <a href="https://youtube.com/@engels811_ttv" target="_blank" class="social-link">🎥</a>
+                <a href="https://discord.gg/KfZRZ4WTnG" target="_blank" class="social-link">💬</a>
+                <a href="https://twitter.com/ttv_engels811" target="_blank" class="social-link">🐦</a>
             </div>
         </div>
 
@@ -44,7 +44,7 @@
                         Über uns
                     </a>
                 </li>
-                <li><a href="https://discord.gg/engels811" target="_blank">Discord Server</a></li>
+                <li><a href="https://discord.gg/KfZRZ4WTnG" target="_blank">Discord Server</a></li>
                 <?php if (!$isPanel): ?>
                     <li><a href="https://panel.engels811-ttv.de/">Dashboard</a></li>
                 <?php endif; ?>

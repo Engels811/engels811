@@ -11,7 +11,7 @@ include __DIR__ . '/includes/header.php';
         <p>Gaming • Streaming • Community • AI-Generated Art</p>
         <div class="hero-buttons">
             <a href="/live.php" class="btn btn-primary">🔴 Zum Stream</a>
-            <a href="https://discord.gg/engels811" class="btn btn-secondary" target="_blank">💬 Discord beitreten</a>
+            <a href="https://discord.gg/KfZRZ4WTnG" class="btn btn-secondary" target="_blank">💬 Discord beitreten</a>
         </div>
     </div>
 </section>
@@ -79,9 +79,9 @@ include __DIR__ . '/includes/header.php';
             Tritt unserem Discord bei, verfolge den Stream und sei dabei!
         </p>
         <div class="hero-buttons">
-            <a href="https://discord.gg/engels811" class="btn btn-primary" target="_blank">💬 Discord Server</a>
+            <a href="https://discord.gg/KfZRZ4WTnG" class="btn btn-primary" target="_blank">💬 Discord Server</a>
             <a href="https://twitch.tv/engels811" class="btn btn-secondary" target="_blank">📺 Twitch</a>
-            <a href="https://youtube.com/@engels811" class="btn btn-secondary" target="_blank">🎥 YouTube</a>
+            <a href="https://youtube.com/@engels811_ttv" class="btn btn-secondary" target="_blank">🎥 YouTube</a>
         </div>
     </div>
 </section>

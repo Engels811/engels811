@@ -1,0 +1,56 @@
+body.dashboard {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #290909;
+    color: #fff;
+}
+
+.dashboard-header {
+    background: #3f0912;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-content {
+    padding: 24px;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: rgba(88, 2, 2, 0.527);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.dashboard-subtitle {
+    color: #b8a9d9;
+    margin-bottom: 24px;
+}
+
+.card h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.card .metric {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #9b5cff;
+}
+
+.status.ok {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #6cff9b;
+}
+
+.card small {
+    color: #aaa;
+}
+wir
