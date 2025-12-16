@@ -1,0 +1,8 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'api_key' => 'your_api_key_here',
+    'allowed_ips' => ['127.0.0.1'],
+    'rate_limit' => 60,
+];
