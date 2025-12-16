@@ -1,0 +1,10 @@
+<?php
+declare(strict_types=1);
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'engels811');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('SITE_URL', 'https://engels811-ttv.de');
+define('API_URL', 'https://wiki.engels811-ttv.de/api');
+define('BOT_API_KEY', 'your_api_key_here');

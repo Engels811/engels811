@@ -1,0 +1,48 @@
+CREATE TABLE IF NOT EXISTS discord_users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  discord_id VARCHAR(32) NOT NULL UNIQUE,
+  username VARCHAR(100) NOT NULL,
+  balance INT DEFAULT 0,
+  bank_balance INT DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS generated_images (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  discord_id VARCHAR(32) NOT NULL,
+  prompt TEXT NOT NULL,
+  image_url VARCHAR(255) NOT NULL,
+  is_featured TINYINT(1) DEFAULT 0,
+  views INT DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS youtube_videos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  video_id VARCHAR(32) NOT NULL,
+  title VARCHAR(200) NOT NULL,
+  description TEXT,
+  published_at DATETIME,
+  is_active TINYINT(1) DEFAULT 1
+);
+
+CREATE TABLE IF NOT EXISTS support_tickets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  discord_id VARCHAR(32) NOT NULL,
+  username VARCHAR(100) NOT NULL,
+  subject VARCHAR(200) NOT NULL,
+  description TEXT NOT NULL,
+  status VARCHAR(20) DEFAULT 'open',
+  priority VARCHAR(20) DEFAULT 'normal',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS economy_transactions (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NULL,
+  discord_id VARCHAR(32) NOT NULL,
+  type VARCHAR(30) NOT NULL,
+  amount INT NOT NULL,
+  description VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
