@@ -1,0 +1,75 @@
+/* =========================================
+   WONDERLIFE HERO – GLOW & LIGHT SWEEP
+========================================= */
+
+/* sanfter Puls im Hintergrund */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(155, 92, 255, 0.12),
+    transparent 65%
+  );
+  animation: heroPulse 8s ease-in-out infinite;
+  z-index: 1;
+}
+
+@keyframes heroPulse {
+  0% { opacity: 0.35; }
+  50% { opacity: 0.7; }
+  100% { opacity: 0.35; }
+}
+
+/* bewegter Light Sweep */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(155, 92, 255, 0.18),
+    transparent
+  );
+  animation: heroSweep 10s linear infinite;
+  z-index: 2;
+}
+
+@keyframes heroSweep {
+  0% { left: -40%; }
+  100% { left: 120%; }
+}
+
+/* Hero Text Glow */
+.hero-content h1 span {
+  text-shadow:
+    0 0 20px rgba(155, 92, 255, 0.6),
+    0 0 40px rgba(155, 92, 255, 0.35);
+}
+
+/* Button Neon Pulse */
+.hero-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 25px rgba(155, 92, 255, 0.7);
+  opacity: 0.6;
+  animation: btnPulse 3s ease-in-out infinite;
+}
+
+@keyframes btnPulse {
+  0% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+  100% { opacity: 0.3; }
+}
